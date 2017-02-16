@@ -68,6 +68,12 @@ dontStep.prototype.bindEvent=function(){
 			_this.scoreUp();
 		}
 	})
+    $('#con').on('touch','.black',function(){
+        if($(this).parent().index()===$('.row').last().index()){
+            $('#con').find('.row').last().remove();
+            _this.scoreUp();
+        }
+    })
 	$('.reStart').on('click',function(e){
 		e.preventDefault();
 		_this.reStart();
