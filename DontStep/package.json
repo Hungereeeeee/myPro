@@ -1,0 +1,19 @@
+{
+  "name": "dotstep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ds.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "css-loader": "^0.26.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-zepto": "0.0.1",
+    "zepto": "^1.2.0"
+  }
+}
