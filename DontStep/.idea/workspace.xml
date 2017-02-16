@@ -21,7 +21,7 @@
       <file leaf-file-name="ds.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ds.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1836">
+            <state relative-caret-position="540">
               <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding />
             </state>
@@ -31,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1517">
-              <caret line="107" column="84" lean-forward="false" selection-start-line="107" selection-start-column="84" selection-end-line="107" selection-end-column="84" />
+            <state relative-caret-position="144">
+              <caret line="4" column="144" lean-forward="false" selection-start-line="4" selection-start-column="144" selection-end-line="4" selection-end-column="144" />
               <folding />
             </state>
           </provider>
@@ -43,8 +43,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/ds.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -95,7 +95,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2048" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -109,12 +109,12 @@
       <option name="presentableId" value="Default" />
       <updated>1487164083862</updated>
       <workItem from="1487164085418" duration="564000" />
-      <workItem from="1487204632156" duration="608000" />
+      <workItem from="1487204632156" duration="827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1172000" />
+    <option name="totallyTimeSpent" value="1391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1929" y="-9" width="1938" height="1048" extended-state="6" />
@@ -167,15 +167,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1517">
-          <caret line="107" column="84" lean-forward="false" selection-start-line="107" selection-start-column="84" selection-end-line="107" selection-end-column="84" />
+        <state relative-caret-position="144">
+          <caret line="4" column="144" lean-forward="false" selection-start-line="4" selection-start-column="144" selection-end-line="4" selection-end-column="144" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ds.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1836">
+        <state relative-caret-position="540">
           <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding />
         </state>
