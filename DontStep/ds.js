@@ -4,7 +4,11 @@ function dontStep(){
 	this.init();
 	this.startGame();
 	this.bindEvent();
+	// var documentWidth = this.documentWidth = window.screen.availWidth;
+	// var conWidth = this.conWidth = documentWidth*0.8;
+	// this.cellWidth = conWidth/4;
 }
+
 dontStep.prototype.startGame=function(){
 	var _this=this;
 	time=setInterval(function(){
@@ -30,14 +34,16 @@ dontStep.prototype.init=function(){
 dontStep.prototype.move=function(){
 	var $con=$('#con');
 	var top=$con.css('top');
+	var cellWidth = $('.cell').css('width')
+	var conWidth = $('#con').css('width')
 	top=parseInt(top)+this.speed;
 	$con.css('top',top)
 	if(top>=0){
 		this.createRow();
-		$con.css('top','-100px')	
+		$con.css('top',-cellWidth)
 	}
-	var rowbottom=parseInt($('.row').last().offset().top)+100;
-	var conbottom=parseInt($('#main').offset().top)+400;
+	var rowbottom=parseInt($('.row').last().offset().top)+parseInt(cellWidth);
+	var conbottom=parseInt($('#main').offset().top)+parseInt(conWidth);
 	if(conbottom<=rowbottom){
 		clearInterval(time)
 		this.gameOver();
