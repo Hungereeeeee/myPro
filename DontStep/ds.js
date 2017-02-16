@@ -20,7 +20,6 @@ dontStep.prototype.createRow=function(){
 			'</div>';
 	$('#con').prepend(tpl);
 	var i=Math.floor(Math.random()*4);
-	console.log(i)
 	$('#con').first().find('.cell').eq(i).addClass('black');
 }
 dontStep.prototype.init=function(){
@@ -32,8 +31,7 @@ dontStep.prototype.move=function(){
 	var $con=$('#con');
 	var top=$con.css('top');
 	top=parseInt(top)+this.speed;
-	$con.css('top',top)	
-	console.log(top)
+	$con.css('top',top)
 	if(top>=0){
 		this.createRow();
 		$con.css('top','-100px')	
@@ -68,11 +66,12 @@ dontStep.prototype.bindEvent=function(){
 			_this.scoreUp();
 		}
 	})
-    $('#con').on('touch','.black',function(){
+    $('#con').on('tap','.black',function(){
         if($(this).parent().index()===$('.row').last().index()){
             $('#con').find('.row').last().remove();
             _this.scoreUp();
         }
+        console.log(1)
     })
 	$('.reStart').on('click',function(e){
 		e.preventDefault();
