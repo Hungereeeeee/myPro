@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width = device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0,maximum=1.0,user-scalable=no"/>
 	<title>别踩白块</title>
 	<style>
+		*{box-sizing: border-box}
 		#main{
 			position: relative;
 			width: 400px;
@@ -12,7 +13,7 @@
 			border: 2px solid lightgray;
 			margin:50px auto;
 			overflow: hidden;
-			border-radius: 5px;	
+			border-radius: 5px;
 		}
 		#con{
 			height: 400px;
@@ -30,6 +31,7 @@
 			width: 100px;
 			height: 100px;
 			float: left;
+			border: 1px solid gray;
 		}
 		.black{
 			/*width: 100px;*/
@@ -86,6 +88,7 @@
 				height: 300px;
 				width: 300px;
 			}
+
 		}
 	</style>
 </head>
@@ -94,6 +97,7 @@
 	<div id="title">
 		<h1>别踩白块</h1>
 		<div id="score">总分：0</div>
+		<div id="highest">最高分：0</div>
 	</div>
 	<div id="main">
 		<div id="con">
@@ -122,6 +126,7 @@
 				<div class="cell  black"></div>
 			</div> -->
 		</div>
+
 		<div id="cover">
 			<div class="btn-enter">
 				<a href="#" class='btn start'>开始游戏</a>
