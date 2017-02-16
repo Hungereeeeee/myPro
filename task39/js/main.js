@@ -22,6 +22,6 @@ require(['jquery','com/goTop','com/carousel','com/exposure','com/waterfall','com
 	//addmore
 	$('.add').on('click',function(e){
 		e.preventDefault();
-		addMore.loadData($('.waterfall'))
+		addMore.handle($('.waterfall'))
 	})
 })

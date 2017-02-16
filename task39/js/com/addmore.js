@@ -19,11 +19,14 @@ define(['jquery','com/waterfall'],function($,waterFall){
 		        })
 		    }
 
-		    function handle(data, $ct){
+		    function handle( $ct){
 		        var tmpl = ''
-		        $.each(data.msg,function(k, v){
-		            tmpl += '<li class=" '+v+' "></li>'
-		        })
+		        // $.each(data.msg,function(k, v){
+		        //     tmpl += '<li class=" '+v+' "></li>'
+		        // })
+				for(var i=0;i<4;i++){
+                    tmpl += '<li class="card'+i+' "></li>'
+				}
 		        $ct.append($(tmpl))
 		        waterFall.init($ct)
 		    }
