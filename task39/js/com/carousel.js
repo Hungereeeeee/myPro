@@ -52,7 +52,7 @@ define(['jquery'],function($){
 		var _this=this;
 		setInterval(function(){
 			_this.playNext();
-		},1000)
+		},3000)
 	}
 	var carousel =(function(){
 		function init($carousel){
